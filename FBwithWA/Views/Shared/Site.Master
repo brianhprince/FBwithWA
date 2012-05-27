@@ -1,0 +1,60 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title>
+        <asp:ContentPlaceHolder ID="TitleContent" runat="server" />
+    </title>
+</head>
+<body>
+    <div style="width: 400px; float: right; border: 1px solid #000;">
+        <div style="background-color:rgb(129, 180, 201); padding-left: 20px; color: #fff; ">
+            <h1>
+                Get Windows Azure for Free</h1>
+        </div>
+        <div style="margin: 6px;">
+            <div>
+                <div>
+                    <p>
+                        <strong>If you are an MSDN subscriber</strong>:</p>
+                    <ul>
+                        <li>Sign up for free Windows Azure subscription from the <a href="http://www.microsoft.com/click/services/Redirect2.ashx?CR_CC=200087171"
+                            target="_blank">Azure MSDN subscriber benefits page</a>.</li>
+                        <li>Watch the video <a href="http://www.youtube.com/watch?v=GxWr1L44T9g" target="_blank">
+                            Activate your MSDN Azure benefits </a>for a step-by-step process of activation.</li>
+                    </ul>
+                    <p>
+                        <strong>If you are not an MSDN subscriber, no problem!</strong></p>
+                    <ul>
+                        <li>You can get a Windows&nbsp;Azure 3-month free trial&nbsp;to help you get started
+                            with a no strings attached subscription. Read more details on the free trial at
+                            <a href="http://www.microsoft.com/click/services/Redirect2.ashx?CR_CC=200085749"
+                                target="_blank">3-Month Azure Free Trial</a>.</li>
+                        <li>Follow the <a href="http://blogs.msdn.com/b/jimoneil/archive/2011/12/19/the-new-improved-no-risk-windows-azure-trial.aspx"
+                            target="_blank">step-by-step instructions on how to sign up for a free trial</a>.</li>
+                        <li>Watch a <a href="http://video.ch9.ms/ch9/abf4/8b90c323-e8d2-4cef-8259-9fff0010abf4/AtHomeS1_ch9.wmv"
+                            target="_blank">small video on Azure Free Trial</a>.</li>
+                    </ul>
+                    <p>
+                        <strong>It's free, you will not be charged.</strong></p>
+                    <p>
+                        In both cases you will need to use a credit card. The card is used solely to prove
+                        you are over 18 and a real human. Windows Azure has a spending cap in place for MSDN
+                        and trial accounts that will keep you from spending more than your free allocation
+                        of resources, so you credit card WILL NEVER BE CHARGED.</p>
+                </div>
+            </div>
+        </div>
+        <div style="background-color:rgb(129, 180, 201); color: #fff; padding: 6px;">
+        This is a sample application showing how to run a Facebook application in Windows
+        Azure. Contact brian.prince@microsoft.com with any questions.</div>
+    </div>
+    <div style="width: 400px;">
+        
+        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    
+</body>
+</html>
